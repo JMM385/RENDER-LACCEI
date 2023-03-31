@@ -1,5 +1,5 @@
 bokeh
-contourpy==1.0.7
+contourpy
 Jinja2==3.1.2
 joblib==1.2.0
 MarkupSafe==2.1.2
