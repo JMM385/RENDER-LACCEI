@@ -17,3 +17,4 @@ threadpoolctl
 tornado
 xyzservices
 gunicorn
+Flask
