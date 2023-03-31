@@ -1,1 +1,1 @@
-bokeh serve --num-procs=0 --allow-websocket-origin=laccei-tac.onrender.com --address=0.0.0.0 --use-xheaders src/main.py
+web: gunicorn --workers 1 --bind 0.0.0.0:$PORT main:app
