@@ -207,7 +207,7 @@ DF_TAC_01["VOL"] = DF_TAC_01["NIVEL"].apply(lambda x: VOL(x)/100**3)
 # H_CRESTA constante en todo t
 DF_TAC_01["NMN"] = H_CRESTA
 
-TEXT_STATS = PreText(text='', styles={"font-size" : "100%", "font-family" : "Arial"})
+TEXT_STATS = PreText(text='', style={"font-size" : "100%", "font-family" : "Arial"})
 def RETURS_STATS(I_MAX, O_MAX, T_I_MAX, T_O_MAX, H_INI, H_MAX, A_MAX, VOL_MAX):
     
     ATEN = (I_MAX - O_MAX) / I_MAX
@@ -376,7 +376,7 @@ text_intro_2 = "<i>- En cuanto a las características de la presa y el embalse, 
 
 text_intro_3 = "<i>- Por consultas o comentarios enviar un correo a <a href='mailto: jmarcenaro@fi.uba.ar'>jmarcenaro@fi.uba.ar</a>, <a href='mailto: mdevoto@fi.uba.ar'>mdevoto@fi.uba.ar</a> o <a href='mailto: msuriano@fi.uba.ar'>msuriano@fi.uba.ar</a>."
 
-layout = column(Div(text=text_title, styles={"font-size" : "150%", "margin": "auto"}),
+layout = column(Div(text=text_title, style={"font-size" : "150%", "margin": "auto"}),
                 Div(text=text_intro_1),
                 Div(text=text_intro_2),
                 Div(text=text_intro_3),
