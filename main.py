@@ -14,6 +14,9 @@ from bokeh.models import ColumnDataSource, Slider, Select, PreText, LinearAxis, 
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
+from flask import Flask
+app = Flask(__name__)
+
 # Presa seleccionada: Quebrada de Ullúm (Inventario de Presas - Tomo III)
 
 # Topografía tomada del inventario de presas
@@ -387,3 +390,7 @@ layout = column(Div(text=text_title, style={"font-size" : "150%", "margin": "aut
 curdoc().add_root(layout)
 
 curdoc().title = "TAC Embalses"
+
+if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)
