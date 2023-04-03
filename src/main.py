@@ -371,7 +371,7 @@ widgets_2 = column(Div(text="<b>Características de la presa y el embalse</b>"),
 widgets_3 = column(Div(text="<b>Resultados generales de la laminación</b>"), TEXT_STATS)
 
 
-text_title = "<b><i>Tránsito agregado de crecidas en un embalse a través de una apliación web interactiva</b></i>"
+text_title = "<b><i>Tránsito agregado de crecidas en un embalse a través de una aplicación web interactiva</b></i>"
 
 text_intro_1 = "<i>- Para el hidrograma de entrada, es posible variar el caudal pico, el tiempo al pico y la forma del hidrogama a través de un factor de forma.</i>"
 
@@ -389,7 +389,7 @@ layout = column(Div(text=text_title, style={"font-size" : "150%", "margin": "aut
                 
 curdoc().add_root(layout)
 
-curdoc().title = "TAC Embalses"
+curdoc().title = "LACCEI-TAC"
 
 #if __name__ == "__main__":
 #    port = int(os.environ.get('PORT', 5000))
