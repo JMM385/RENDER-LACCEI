@@ -1,4 +1,4 @@
-# RENDER-LACCEI
+# Tránsito agregado de crecidas a través de una aplicación web interactiva
 - El desarrollo de la aplicación se encuentra en "src/main.py" <br>
 - La aplicación es accesible a través del siguiente link: https://laccei-tac.onrender.com <br>
 - También es posible ejecutar la aplicación localmente si se crea un entorno virtual de python con las librerías indicadas en el archivo "requirements.txt" <br>
